@@ -1,0 +1,316 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap" rel="stylesheet">
+div{
+
+}
+html{
+	scroll-behavior:smooth;
+}
+.navname{
+	color: #f73184;
+	font-size: 40px;
+	font-family: Arial Black;
+	font-weight: bold;
+	color:#f73184 ;
+}
+.navname:hover{
+	-webkit-text-stroke:2px #f73184;
+	color: transparent;
+	text-shadow: 0px 5px 2px #f73184;
+}
+.menus{
+	color: black;
+	font-weight: bold;
+}
+.home:hover{
+	border-bottom: black;
+}
+.menus:hover{
+	color: #f73184;
+	transition-duration: 0.5s;
+	
+	transform: scale(1.1);
+}
+.homeinfo{
+	width: 100%;
+	height: 800px;
+	background-image: url('https://camo.githubusercontent.com/a4c584bce1c41271485d28f92aaf9f581b3c88b68ca723b6edfd58b4ba988c2b/68747470733a2f2f63646e2e6472696262626c652e636f6d2f75736572732f313138373833362f73637265656e73686f74732f363533393432392f70726f6772616d65722e676966');
+/*	background-image: url('Myphoto1');*/
+	background-repeat: no-repeat;
+	background-position: right center;
+/*	background-color: black;*/
+
+}
+.myinfo{
+		margin-left: 100px;
+		margin-top:10px ;
+		padding-top: 150px;
+		padding-left:150px;
+
+}
+.btn{
+	margin-left: 30px;
+}
+.btn button{
+	height: 35px;
+	width: 90px;
+	color:white;
+	background-color: #f73184;
+	border-radius: 8px;
+	border-color: #f73184 ;
+	font-size: 14px;
+	font-weight: bold;
+	margin-left: 100px;
+	padding-bottom: 2px;
+
+
+}
+.btn button:hover{
+	background-color: white;
+	color: #f73184;
+	border: 2px solid #f73184;
+	transform: scale(1.1);
+	transition-duration: 1s;
+}
+.myimg{
+	width: 100px;
+	height: 150px;
+}
+.itm{
+	font-size: 20px;
+	
+}
+.fullname{
+	color: #f73184;
+	font-weight: bold;
+	font-size: 40px;
+	font-family: 'Tilt Prism', cursive;
+}
+.itm2{
+	font-size: 20px;
+	font-weight: bold;
+}
+.infoo{
+	width: 100%;
+	height: 500px;
+	
+/*	border: 2px solid black;*/
+
+}
+.aboutinfo{
+	background-color:floralwhite;
+}
+li a:hover{
+	border-bottom: 2px solid black;
+	transition-duration: 0.5s;
+	transform: scale(1.1);
+}
+li a{
+	margin-left: 20px;
+}
+
+/*About content CSS*/
+.aboutinfo{
+	height: 800px;
+	background-color: #f5fafa;
+	padding-top: 300px;
+}
+.contentHeading{
+	color:#f73184;
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+	font-family: Bodoni MT Black;
+
+}
+.info{
+	text-align: center;
+	width: 100%;
+
+}
+
+.myimg{
+	
+	width: 270px;
+	height: 300px;
+	border-radius: 150PX;
+
+}
+.myimg:hover{
+	
+	transition-duration: 1s;
+	transform: scale(1.1);
+	box-shadow: 10PX 10PX 10PX black;
+
+}
+.objective{
+	font-size: 20px;
+	text-align: justify !important;
+}
+
+/*skills info*/
+
+.skillsinfo{
+	background-color: #f5fafa;
+	padding-top: 100px;
+	width: 100%;
+	height: 800px;
+
+}
+
+.skillsdv{
+	align-content: center;
+}
+.skills{
+	background-color:#e1e8e7;
+/*background-color:#171716;*/
+	width: 400px;
+	height: 200px;
+	padding: 30px;
+	
+}
+.skills li{
+	margin-left: 30px;
+}
+.skills:hover{
+	transform: scale(1.05);
+	box-shadow: 0px 0px 30px black;
+	transition-duration: 1s;
+}
+
+/*PROJECT SECTION SCC*/
+
+.projectinfo{
+	padding-top: 100px;
+	background-color: #faf0ed;
+	height: 2000px;
+	position: relative;
+
+}
+.prj1{
+/*	padding-left: 100px;*/
+	width: 100%;
+	align-content: center;
+}
+.prjectsdiv{
+	color: blue;
+	font-size: 25px;
+	font-weight: bold;
+	font-family: Cooper Black;
+	margin-top: 50px;
+}
+
+.card:hover{
+	box-shadow: 0px 0px 10px black;
+	transform: scale(1.05);
+	transition-duration: 1s;
+}
+
+/*	contact info css*/
+
+.contactinfo{
+	width: 100%;
+	height: 800px;
+	background-color: #f5fafa;
+	padding-top: 100px;
+
+}
+
+/*contact form*/
+
+ .mycontact{
+ 	width: 100%;
+ 	height: 100vh;
+ 	background-image: linear-gradient(rgba(0, 0, 0,0.7),#3551b5),url('https://e0.pxfuel.com/wallpapers/33/543/desktop-wallpaper-programmer-funny-coding.jpg');
+ 	background-repeat: no-repeat;
+ 	background-size:cover;
+	background-position: center;
+	display: flex;
+	align-items: center;
+	justify-content: centre;
+
+ }
+ form{
+ 	width: 90%;
+ 	margin-left: 500px;
+/* 	max-width: 600px;*/
+ }
+ .input-group{
+ 	margin-bottom: 30px;
+ 	position: relative;
+ }
+input, textarea{
+	width: 50%;
+	padding:10px;
+	outline: 0;
+	border: 1px solid #fff;
+	color: #fff;
+	background: transparent;
+	font-size: 15px;
+}
+label{
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	padding: 10px;
+	color: #fff;
+	cursor: text;
+	transition: 0.2s;
+}
+.btn2 {
+	margin-right: 500px;
+}
+ button{
+	padding:10px 0 ;
+	color: #fff;
+	outline: none;
+	background: transparent;
+	border: 1px solid #fff;
+	cursor: pointer;
+	width: 100%;
+}
+.btn2 button:hover{
+	background-color: whitesmoke;
+	color: black;
+	box-shadow: 0px 0px 10px black;
+	transition-duration: 1s;
+	transform: scale(0.7);
+} 
+
+input:focus~label,
+input:valid~label,
+textarea:focus~label,
+textarea:valid~label
+{
+	top:-35px;
+	font-size: 14px;
+	text-decoration: none;
+
+}
+
+/*// footer css*/
+
+.footer{
+	background-color: black;
+	width: 100%;
+	height: 80px;
+}
+.icons{
+	color: white;
+
+}
+.icons i{
+	margin-top: 30px;
+	margin-left: 30px;
+}
+.icons i:hover{
+	transition-duration: 1s;
+	transform: scale(1.3);
+	color: red;
+}
+.icons i a{
+	text-decoration: none;
+	color: white;
+}
