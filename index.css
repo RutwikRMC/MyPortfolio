@@ -200,11 +200,17 @@ li a{
 	font-family: Cooper Black;
 	margin-top: 50px;
 }
+.card{
+	margin-top: 50px;
+	margin-left: 200px;
+}
 
 .card:hover{
 	box-shadow: 0px 0px 10px black;
 	transform: scale(1.05);
 	transition-duration: 1s;
+	
+
 }
 
 /*	contact info css*/
